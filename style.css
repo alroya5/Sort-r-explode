@@ -1,0 +1,36 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/531a56d9-cb5e-439d-bd50-52567ebfd89b/d6o0lao-ded43f61-27b2-49b1-9f68-f3906ce6a375.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzUzMWE1NmQ5LWNiNWUtNDM5ZC1iZDUwLTUyNTY3ZWJmZDg5YlwvZDZvMGxhby1kZWQ0M2Y2MS0yN2IyLTQ5YjEtOWY2OC1mMzkwNmNlNmEzNzUuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Kn4u1XrtC720MCP1K7On7i2gteDACv09qCFG9Tl6az0),  gray;
+    text-align: center;
+}
+
+canvas {
+    background: black;
+    margin: 24px auto;
+    border: solid 1px black;
+    /*cursor: none;*/
+}
+
+.start-button {
+    font-size: 24px;
+    padding: 16px 32px;
+    position: absolute;
+    top: 26%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .pause-text {
+    font-size: 80px;
+    position: absolute;
+    top: 26%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    display: none;
+  }
